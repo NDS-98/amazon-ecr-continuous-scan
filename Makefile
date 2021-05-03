@@ -1,6 +1,6 @@
-ECR_SCAN_STACK_NAME?=ecr-continuous-scan
-ECR_SCAN_SVC_BUCKET?=ecr-continuous-scan-svc
-ECR_SCAN_CONFIG_BUCKET?=ecr-continuous-scan-config
+ECR_SCAN_STACK_NAME?=nds-ecr-continuous-scan
+ECR_SCAN_SVC_BUCKET?=nds-ecr-continuous-scan-svc
+ECR_SCAN_CONFIG_BUCKET?=nds-ecr-continuous-scan-config
 
 .PHONY: build up deploy destroy status
 
